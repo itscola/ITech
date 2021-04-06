@@ -1,4 +1,4 @@
 # ITech
-You can make your tech bukkit plugin based on ITech.    
-- CustomItems [🆗]
-- CustomEntity [1%]
+You can make your tech bukkit plugin like SlimeFun based on ITech.    
+- CustomItems System [🆗]
+- CustomEntity System [1%]
