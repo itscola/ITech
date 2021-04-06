@@ -1,2 +1,4 @@
 # ITech
-You can make your tech bukkit plugin based on ITech. (CustomItem....)
+You can make your tech bukkit plugin based on ITech.    
+## CustomItems [🆗]
+## CustomEntity [1%]
