@@ -1,0 +1,15 @@
+name: ITech
+version: 1.0
+main: top.whitecola.itech.ITech
+author: [White_cola]
+depend:
+  - HiPlugin
+api-version: 1.16
+commands:
+  itech:
+    usage: /itech <command> [args] ...
+permissions:
+  itech.giveitem:
+    default: op
+  itech.example:
+    default: op
