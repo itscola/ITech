@@ -7,6 +7,7 @@ import top.whitecola.itech.items.items.AntiGravityStone;
 import top.whitecola.itech.items.tool.PigSoulPickaxe;
 import top.whitecola.itech.items.tool.SlimeBow;
 import top.whitecola.itech.items.tool.SlimeSaddle;
+import top.whitecola.itech.items.tool.SuperHotSword;
 
 import java.util.Vector;
 
@@ -36,6 +37,7 @@ public class ItemHandle {
         items.add(new SlimeSaddle());
         items.add(new AntiGravityStone());
         items.add(new SlimeBow());
+        items.add(new SuperHotSword());
     }
 
     public static boolean wasItIgnoreDur(ItemStack item, IItechItem itechItem){

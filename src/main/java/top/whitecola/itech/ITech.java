@@ -20,6 +20,7 @@ public class ITech extends JavaPlugin {
         instance = this;
     }
     public ItemHandle itemHandle = new ItemHandle();
+
     public HiCommand commands = new HiCommand(instance,"itech");
 
 

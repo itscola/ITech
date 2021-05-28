@@ -54,6 +54,7 @@ public class GiveItem implements ICommand {
             case "[OnlinePlayer]":
                 return Bukkit.getOnlinePlayers().stream().map(i->i.getName()).collect(Collectors.toList());
         }
+
         return Arrays.asList(handleArg);
     }
 
