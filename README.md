@@ -6,4 +6,4 @@ This Plugin Developed based on [HiPlugin](https://github.com/itscola/HiPlugin) w
 - CustomEntity [1%] 
 - Event System [20%] [Demo](https://github.com/itscola/ITech/blob/main/src/main/java/top/whitecola/itech/event/ItechItemEvent.java)
 
-The future version only in my server now.
+## The future version only in my server now.
