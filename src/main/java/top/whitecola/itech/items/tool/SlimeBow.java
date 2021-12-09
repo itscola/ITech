@@ -25,7 +25,7 @@ public class SlimeBow implements IItechItem {
     public SlimeBow(){
         hitem = new HiItem(new ItemStack(Material.BOW));
         hitem.setDisplayName("§2§l史莱姆弓")
-                .setLores(Arrays.asList("§a上面..","§a黏黏的...","§2射到生物后,生物获得3秒跳跃提升效果.","§2射出时 玩家像史莱姆跳跃"))
+                .setLores(Arrays.asList("§a上面..","§a黏黏的...","§2射到生物后,生物获得3秒跳跃提升效果.","§2射出时 玩家像史莱姆跳跃","§a内测路上，有你真好。"))
                 .setCustomModelData(20212024)
                 .addEnchat(Enchantment.ARROW_KNOCKBACK,1,false);
     }

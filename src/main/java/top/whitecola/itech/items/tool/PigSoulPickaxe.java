@@ -16,7 +16,7 @@ public class PigSoulPickaxe implements IItechItem {
     public PigSoulPickaxe(){
         hitem = new HiItem(new ItemStack(Material.IRON_PICKAXE));
         hitem.setDisplayName("§f§l猪灵镐")
-                .setLores(Arrays.asList("§4很坚固.","§4有些烫手.","§6挖矿物直接变锭."))
+                .setLores(Arrays.asList("§4很坚固.","§4有些烫手.","§6挖矿物直接变锭.","§e内测路上，有你真好。"))
                 .setCustomModelData(20212021)
                 .addEnchat(Enchantment.DIG_SPEED,2,false);
     }

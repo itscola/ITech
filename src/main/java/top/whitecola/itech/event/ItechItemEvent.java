@@ -50,9 +50,14 @@ public class ItechItemEvent {
             if(!ItemUtils.hasItemCustomModelData(i.getItem()))
                 return;
 
-            if(i.getItem().getItemMeta().getCustomModelData()==e.getPlayer().getInventory().getItemInMainHand().getItemMeta().getCustomModelData()){
-                i.onRightClick(e);
+            try {
+                if(i.getItem().getItemMeta().getCustomModelData()==e.getPlayer().getInventory().getItemInMainHand().getItemMeta().getCustomModelData()){
+                    i.onRightClick(e);
+                }
+            }catch (NullPointerException ee){
+                return;
             }
+
         });
     }
 
@@ -91,6 +96,11 @@ public class ItechItemEvent {
 
         boolean finalIsBow = isBow;
         ItemHandle.items.forEach(i->{
+
+            if(!(e.getDamager() instanceof Player)){
+                return;
+            }
+
             if(!ItemUtils.hasItemCustomModelData(i.getItem()))
                 return;
             if(finalIsBow){

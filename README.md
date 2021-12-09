@@ -5,5 +5,3 @@ This Plugin Developed based on [HiPlugin](https://github.com/itscola/HiPlugin) w
 - Custom Player Head [✅] [Demo](https://github.com/itscola/ITech/blob/main/src/main/java/top/whitecola/itech/items/items/AntiGravityStone.java)
 - CustomEntity [1%] 
 - Event System [20%] [Demo](https://github.com/itscola/ITech/blob/main/src/main/java/top/whitecola/itech/event/ItechItemEvent.java)
-
-## The future version only in my server now.

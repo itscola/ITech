@@ -4,7 +4,9 @@ main: top.whitecola.itech.ITech
 author: [White_cola]
 depend:
   - HiPlugin
-api-version: 1.16
+  - HolographicDisplays
+  - EffectLib
+api-version: 1.17
 commands:
   itech:
     usage: /itech <command> [args] ...
@@ -12,4 +14,8 @@ permissions:
   itech.giveitem:
     default: op
   itech.example:
+    default: op
+  itech.uplevel:
+    default: op
+  itech.test:
     default: op

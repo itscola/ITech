@@ -19,7 +19,9 @@ public class EntityListener implements Listener {
 //                e.setCancelled(true);
 //            }
 //        }
+        if(e.getCause()== EntityDamageEvent.DamageCause.FIRE_TICK){
 
+        }
     }
 
 

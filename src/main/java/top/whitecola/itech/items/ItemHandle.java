@@ -4,10 +4,7 @@ import org.bukkit.inventory.ItemStack;
 import top.whitecola.bridges.HiItemSerialization;
 import top.whitecola.itech.items.food.Hambuger;
 import top.whitecola.itech.items.items.AntiGravityStone;
-import top.whitecola.itech.items.tool.PigSoulPickaxe;
-import top.whitecola.itech.items.tool.SlimeBow;
-import top.whitecola.itech.items.tool.SlimeSaddle;
-import top.whitecola.itech.items.tool.SuperHotSword;
+import top.whitecola.itech.items.tool.*;
 
 import java.util.Vector;
 
@@ -38,6 +35,8 @@ public class ItemHandle {
         items.add(new AntiGravityStone());
         items.add(new SlimeBow());
         items.add(new SuperHotSword());
+        items.add(new PokeBall());
+        items.add(new SeaAXE());
     }
 
     public static boolean wasItIgnoreDur(ItemStack item, IItechItem itechItem){

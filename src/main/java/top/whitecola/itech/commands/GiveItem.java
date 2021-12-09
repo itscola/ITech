@@ -18,6 +18,9 @@ public class GiveItem implements ICommand {
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] args) {
+
+
+
         if(args.length<3)
             return false;
         ItemStack item;
